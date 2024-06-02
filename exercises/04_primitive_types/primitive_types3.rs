@@ -5,11 +5,15 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
+// I AM DONE
 
 fn main() {
-    let a = ???
+    let a = "Hi there, my name is Muhammad Irtiza, how are you doing? not sure how to create an array of 100 elements?";
 
+    // this will create an array of 100 elements filled with 0's
+    // let a = [0; 100];
+
+    println!("A's length is: {}", a.len());
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
